@@ -1,0 +1,317 @@
+/* =================================
+   TIME / CLINIC INFO SECTION
+================================= */
+
+.time {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #f7faff;
+}
+
+/* =================================
+   SECTION HEADING
+================================= */
+
+.time-heading {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+/* Small Subtitle */
+
+.time-subtitle {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #1c74e8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+/* Heading */
+
+.time-heading h2 {
+    margin: 0 0 16px;
+    color: #173b43;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* Blue Highlight */
+
+.time-heading h2 span {
+    display: inline;
+    color: #1c74e8;
+}
+
+/* Description */
+
+.time-heading p {
+    max-width: 560px;
+    margin: 0 auto;
+    color: #63777c;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =================================
+   CARDS CONTAINER
+================================= */
+
+.Time-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* =================================
+   CARD
+================================= */
+
+.time-card {
+    position: relative;
+    min-height: 235px;
+    padding: 28px 24px;
+    background-color: #ffffff;
+    border: 1px solid #dce9f8;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(28, 116, 232, 0.07);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+/* Top Blue Line */
+
+.time-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #1c74e8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+/* Card Hover */
+
+.time-card:hover {
+    transform: translateY(-7px);
+    border-color: #bcd6f5;
+    box-shadow: 0 18px 40px rgba(28, 116, 232, 0.13);
+}
+
+.time-card:hover::before {
+    transform: scaleX(1);
+}
+
+/* =================================
+   ICON
+================================= */
+
+.time-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1c74e8;
+    background-color: #eaf3ff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Icon Hover */
+
+.time-card:hover .time-icon {
+    color: #ffffff;
+    background-color: #1c74e8;
+    transform: translateY(-2px);
+}
+
+/* =================================
+   CONTENT
+================================= */
+
+.time-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Small Label */
+
+.card-label {
+    margin-bottom: 6px;
+    color: #1c74e8;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+/* Card Heading */
+
+.time-content h3 {
+    /* margin: 0 0 10px; */
+    color: #173b43;
+    font-size: 19px;
+    font-weight: 650;
+}
+
+/* Card Paragraph */
+
+.time-content p {
+    margin: 10px 0;
+    color: #71858a;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Opening Time */
+
+.time-content strong {
+    color: #173b43;
+    font-size: 13px;
+    font-weight: 650;
+}
+
+/* =================================
+   PHONE / EMAIL LINKS
+================================= */
+
+.time-content a {
+    text-decoration: none;
+}
+
+/* Contact Link */
+
+.contact-link {
+    color: #1c74e8;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #155fc0;
+}
+
+/* =================================
+   GET DIRECTIONS
+================================= */
+
+.direction-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #1c74e8;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.direction-link:hover {
+    gap: 8px;
+    color: #155fc0;
+}
+
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 1100px) {
+    .Time-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =================================
+   MOBILE
+================================= */
+
+/* @media (max-width: 768px) {
+    .time {
+        padding: 70px 0;
+    }
+
+    .time-heading {
+        margin-bottom: 35px;
+    }
+
+    .time-heading h2 {
+        font-size: 36px;
+    }
+
+    .time-heading p {
+        font-size: 14px;
+    }
+
+    .Time-box {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .time-card {
+        min-height: auto;
+        padding: 24px;
+    }
+} */
+
+/* =================================
+   SMALL MOBILE
+================================= */
+
+/* @media (max-width: 480px) {
+    .time {
+        padding: 55px 0;
+    }
+
+    .time-heading {
+        padding: 0 5px;
+    }
+
+    .time-subtitle {
+        font-size: 11px;
+    }
+
+    .time-heading h2 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .time-heading p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .time-card {
+        padding: 22px;
+        border-radius: 12px;
+    }
+
+    .time-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .time-content h3 {
+        font-size: 18px;
+    }
+
+    .time-content p {
+        font-size: 13px;
+    }
+} */

@@ -1,0 +1,390 @@
+.before-after-section {
+    padding: 80px 0px;
+    background: #eaf3ff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.before-after-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =========================
+   Header
+========================= */
+
+.before-after-header {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.before-after-subtitle {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #1c74e8;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.before-after-header h2 {
+    margin: 0;
+    color: #12343b;
+    font-size: clamp(36px, 5vw, 52px);
+    line-height: 1.15;
+}
+
+.before-after-header h2 span {
+    color: #1c74e8;
+}
+
+.before-after-header p {
+    max-width: 620px;
+    margin: 20px auto 0;
+    color: #718286;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* =========================
+   Tabs
+========================= */
+
+.treatment-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.treatment-tabs button {
+    padding: 11px 20px;
+    color: #63777b;
+    background: #ffffff;
+    border: 1px solid #dcebed;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.treatment-tabs button:hover {
+    color: #1c74e8;
+    border-color: #9dd3d7;
+}
+
+.treatment-tabs button.active {
+    color: #ffffff;
+    background: #1c74e8;
+    border-color: #1c74e8;
+    box-shadow: 0 8px 20px rgba(11, 154, 165, 0.18);
+}
+
+/* =========================
+   Main Content
+========================= */
+
+.before-after-content {
+    display: grid;
+    grid-template-columns: 1.35fr 0.65fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* =========================
+   Comparison
+========================= */
+
+.comparison-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.comparison-card {
+    position: relative;
+    overflow: hidden;
+    height: 440px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(20, 80, 90, 0.12);
+}
+
+.comparison-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.comparison-card:hover img {
+    transform: scale(1.04);
+}
+
+/* Labels */
+
+.comparison-label {
+    position: absolute;
+    top: 18px;
+    padding: 7px 13px;
+    color: #ffffff;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.before-label {
+    left: 18px;
+    background: rgba(35, 53, 57, 0.75);
+}
+
+.after-label {
+    right: 18px;
+    background: #1c74e8;
+}
+
+/* Center Divider */
+
+.comparison-divider {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    color: #1c74e8;
+    background: #ffffff;
+    border: 4px solid #eaf3ff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    z-index: 2;
+}
+
+.comparison-divider span {
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* =========================
+   Information
+========================= */
+
+.transformation-info {
+    padding: 10px 0;
+}
+
+.small-label {
+    display: inline-block;
+    margin-bottom: 13px;
+    color: #1c74e8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.transformation-info h3 {
+    margin: 0 0 16px;
+    color: #173d43;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.transformation-info > p {
+    margin: 0;
+    color: #718286;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Points */
+
+.transformation-points {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.transformation-points div {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.transformation-points span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    color: #1c74e8;
+    background: #e3f7f8;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.transformation-points p {
+    margin: 0;
+    color: #4f676b;
+    font-size: 13px;
+}
+
+/* Button */
+
+.transformation-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    color: #ffffff;
+    background: #1c74e8;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.transformation-button span {
+    font-size: 18px;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.transformation-button:hover {
+    background-color: #155fc0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(28, 116, 232, 0.25);
+}
+
+.transformation-button:hover span {
+    transform: translateX(5px);
+}
+
+/* =========================
+   Disclaimer
+========================= */
+
+.before-after-note {
+    margin: 35px auto 0;
+    max-width: 700px;
+    color: #8a989b;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* =========================
+   Tablet
+========================= */
+
+/* @media (max-width: 900px) {
+    .before-after-section {
+        padding: 75px 20px;
+    }
+
+    .before-after-content {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .comparison-wrapper {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .transformation-info {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+} */
+
+/* =========================
+   Mobile
+========================= */
+
+/* @media (max-width: 600px) {
+    .before-after-section {
+        padding: 65px 16px;
+    }
+
+    .before-after-header {
+        margin-bottom: 30px;
+    }
+
+    .before-after-header h2 {
+        font-size: 34px;
+    }
+
+    .before-after-header p {
+        font-size: 15px;
+    }
+
+    .treatment-tabs {
+        gap: 7px;
+        margin-bottom: 30px;
+    }
+
+    .treatment-tabs button {
+        padding: 9px 14px;
+        font-size: 11px;
+    }
+
+    .comparison-wrapper {
+        gap: 7px;
+    }
+
+    .comparison-card {
+        height: 300px;
+        border-radius: 14px;
+    }
+
+    .comparison-label {
+        top: 12px;
+        padding: 6px 9px;
+        font-size: 9px;
+    }
+
+    .before-label {
+        left: 10px;
+    }
+
+    .after-label {
+        right: 10px;
+    }
+
+    .comparison-divider {
+        width: 38px;
+        height: 38px;
+        border-width: 3px;
+    }
+
+    .comparison-divider span {
+        font-size: 16px;
+    }
+
+    .transformation-info h3 {
+        font-size: 27px;
+    }
+
+    .transformation-button {
+        width: 100%;
+        justify-content: center;
+    }
+} */

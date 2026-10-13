@@ -1,0 +1,547 @@
+
+
+
+/* =========================
+   HERO
+========================= */
+
+.contact-hero {
+  padding: 80px 0;
+  background: #eaf3ff;
+}
+
+.contact-hero .contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
+/* .contact-hero h1 strong {
+  display: block;
+  color: #1c74e8;
+} */
+
+
+/* Badge */
+
+.contact-hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  background-color: #ffffff;
+  border: 1px solid #e2ecf8;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(23, 59, 67, 0.15);
+}
+
+.contact-badge-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #1c74e8;
+  border-radius: 10px;
+  flex-shrink: 0;
+  font-size: 20px;
+}
+
+.contact-hero-badge div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.contact-hero-badge span {
+  color: #819195;
+  font-size: 10px;
+}
+
+/* =========================
+   INFO CARDS
+========================= */
+
+.contact-info-section {
+  padding: 30px 0;
+  background: #ffffff;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.contact-info-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: #f4fbfc;
+  border: 1px solid #e2edef;
+  border-radius: 12px;
+}
+
+.contact-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #1c74e8;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+.contact-eyebrow,
+.contact-info-card span,
+.hours-header span,
+.contact-cta-content>div>span {
+  margin-bottom: 6px;
+  color: #1c74e8;
+  font-size: 10px;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+}
+
+.contact-info-card h3 {
+  margin: 5px 0;
+  color: #173d43;
+  font-size: 14px;
+}
+
+.contact-info-card p {
+  color: #63777c;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* =========================
+   MAIN
+========================= */
+
+.contact-main {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.contact-main-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 70px;
+  align-items: start;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     margin-top: 30px;
+}
+
+.form-row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #35565b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  color: #173d43;
+  background: #f4fbfc;
+  border: 1px solid #dcebed;
+  border-radius: 10px;
+  outline: none;
+  font-size: 12px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #1c74e8;
+  box-shadow: 0 0 0 3px rgba(11, 154, 165, 0.08);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-submit {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  padding: 14px 22px;
+
+  color: #ffffff;
+  background: #1c74e8;
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.contact-submit:hover {
+  background-color: #155fc0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(28, 116, 232, 0.25);
+}
+
+.contact-submit span {
+  font-size: 17px;
+  color: #fff;
+}
+
+.form-note {
+  margin-top: 12px;
+
+  color: #96a4a7;
+
+  font-size: 10px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Hours */
+
+.hours-card {
+  padding: 20px;
+  background: #f4fbfc;
+  border: 1px solid #dcebed;
+  border-radius: 12px;
+}
+
+.hours-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #deeaec;
+}
+
+.hours-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  background: #1c74e8;
+
+  border-radius: 12px;
+
+  font-size: 21px;
+}
+
+.hours-header h3 {
+  margin: 5px 0 0;
+
+  font-size: 17px;
+}
+
+.hours-list {
+  padding: 18px 0;
+}
+
+.hours-list>div {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 9px 0;
+
+  gap: 15px;
+}
+
+.hours-list span {
+  color: #718286;
+
+  font-size: 12px;
+}
+
+.hours-list strong {
+  color: #35565b;
+
+  font-size: 11px;
+}
+
+/* .hours-list .closed {
+  color: #ee4848;
+} */
+
+/* Emergency */
+
+.emergency-box {
+  padding: 18px;
+
+  background: #ffffff;
+
+  border-left: 3px solid #1c74e8;
+
+  border-radius: 10px;
+}
+
+.emergency-box strong {
+  display: block;
+
+  color: #173d43;
+
+  font-size: 13px;
+}
+
+.emergency-box p {
+  margin: 5px 0 10px;
+  color: #63777c;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.emergency-box a {
+  color: #1c74e8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* =========================
+   MAP
+========================= */
+
+.map-card {
+  overflow: hidden;
+
+  background: #f5fbfc;
+
+  border: 1px solid #e0edef;
+
+  border-radius: 18px;
+}
+
+.map-placeholder {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  min-height: 160px;
+
+  padding: 25px;
+
+  background:
+    linear-gradient(135deg,
+      #e8f5f6 25%,
+      #dff0f2 25%,
+      #dff0f2 50%,
+      #e8f5f6 50%,
+      #e8f5f6 75%,
+      #dff0f2 75%);
+
+  background-size: 35px 35px;
+}
+
+.map-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  background: #ffffff;
+
+  border-radius: 50%;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+  font-size: 21px;
+}
+
+.map-placeholder strong,
+.map-placeholder span {
+  display: block;
+}
+
+.map-placeholder strong {
+  color: #173d43;
+
+  font-size: 13px;
+}
+
+.map-placeholder span {
+  margin-top: 5px;
+
+  color: #6f8387;
+
+  font-size: 10px;
+}
+
+.directions-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  color: #1c74e8;
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.directions-btn span {
+  font-size: 18px;
+}
+
+/* =========================
+   CTA
+========================= */
+
+.contact-cta {
+  padding: 60px 0;
+}
+
+
+
+
+
+/* =========================
+   TABLET
+========================= */
+
+/* @media (max-width: 900px) {
+  .contact-hero .contact-container {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-main-grid {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+  .contact-sidebar {
+    max-width: 700px;
+  }
+
+  .contact-cta-content {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+} */
+
+/* =========================
+   MOBILE
+========================= */
+
+/* @media (max-width: 600px) {
+  .contact-container {
+    width: min(100% - 32px, 1200px);
+  }
+
+  .contact-hero {
+    padding: 60px 0;
+  }
+
+  .contact-hero h1 {
+    font-size: 40px;
+  }
+
+  .contact-hero-content p {
+    font-size: 14px;
+  }
+
+  .contact-info-section {
+    padding: 20px 0;
+  }
+
+  .contact-info-card {
+    padding: 18px;
+  }
+
+  .contact-main {
+    padding: 65px 0 75px;
+  }
+
+  .contact-section-heading h2 {
+    font-size: 31px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .hours-card {
+    padding: 22px;
+  }
+
+  .contact-cta {
+    padding: 55px 0;
+  }
+
+  .contact-cta-content h2 {
+    font-size: 31px;
+  }
+
+  .contact-cta-button {
+    width: 100%;
+  }
+} */
