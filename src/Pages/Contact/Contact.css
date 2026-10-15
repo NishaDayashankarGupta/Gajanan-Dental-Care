@@ -459,7 +459,7 @@
    TABLET
 ========================= */
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .contact-hero .contact-container {
     flex-direction: column;
 
@@ -485,13 +485,13 @@
 
     align-items: flex-start;
   }
-} */
+} 
 
 /* =========================
    MOBILE
 ========================= */
 
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
   .contact-container {
     width: min(100% - 32px, 1200px);
   }
@@ -544,4 +544,4 @@
   .contact-cta-button {
     width: 100%;
   }
-} */
+} 

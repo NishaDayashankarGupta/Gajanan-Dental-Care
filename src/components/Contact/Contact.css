@@ -365,7 +365,7 @@
    Tablet
 ========================= */
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     .contact-section {
         padding: 75px 20px;
     }
@@ -387,13 +387,13 @@
         box-sizing: border-box;
         margin: 0 auto;
     }
-} */
+} 
 
 /* =========================
    Mobile
 ========================= */
 
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
     .contact-section {
         padding: 65px 16px;
     }
@@ -440,4 +440,4 @@
     .emergency-card {
         padding: 17px;
     }
-} */
+} 

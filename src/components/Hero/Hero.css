@@ -227,7 +227,7 @@
    TABLET
 ================================= */
 
-/* @media (max-width: 1000px) {
+ @media (max-width: 1000px) {
     .hero-content {
         grid-template-columns: 1fr 0.9fr;
         gap: 30px;
@@ -250,13 +250,13 @@
     .hero-image-wrapper {
         height: 500px;
     }
-} */
+}
 
 /* =================================
    MOBILE
 ================================= */
 
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
     .hero {
         min-height: auto;
     }
@@ -317,13 +317,13 @@
         bottom: 25px;
         white-space: nowrap;
     }
-} */
+}
 
 /* =================================
    SMALL MOBILE
 ================================= */
 
-/* @media (max-width: 480px) {
+ @media (max-width: 480px) {
     .hero-content {
         padding: 45px 0;
     }
@@ -377,4 +377,4 @@
         width: 310px;
         height: 310px;
     }
-} */
+} 

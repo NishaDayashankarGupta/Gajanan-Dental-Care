@@ -293,7 +293,7 @@
    Tablet
 ========================= */
 
-/* @media (max-width: 900px) {
+ @media (max-width: 900px) {
     .before-after-section {
         padding: 75px 20px;
     }
@@ -313,13 +313,13 @@
         max-width: 650px;
         margin: 0 auto;
     }
-} */
+}
 
 /* =========================
    Mobile
 ========================= */
 
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
     .before-after-section {
         padding: 65px 16px;
     }
@@ -387,4 +387,4 @@
         width: 100%;
         justify-content: center;
     }
-} */
+} 

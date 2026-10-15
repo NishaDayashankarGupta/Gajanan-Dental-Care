@@ -337,7 +337,7 @@
    Tablet
 ========================= */
 
-/* @media (max-width: 950px) {
+ @media (max-width: 950px) {
     .services-page-hero .services-page-container {
         grid-template-columns: 1fr;
         gap: 50px;
@@ -368,13 +368,13 @@
         width: 100%;
         justify-content: space-between;
     }
-} */
+} 
 
 /* =========================
    Mobile
 ========================= */
 
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
     .services-page-container {
         width: min(100% - 32px, 1200px);
     }
@@ -454,4 +454,4 @@
         justify-content: center;
         box-sizing: border-box;
     }
-} */
+} 

@@ -273,18 +273,18 @@
    TABLET
 ================================= */
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .footer-top {
         grid-template-columns: repeat(2, 1fr);
         gap: 45px;
     }
-} */
+}
 
 /* =================================
    MOBILE
 ================================= */
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .footer-top {
         grid-template-columns: 1fr 1fr;
         gap: 40px 30px;
@@ -301,13 +301,13 @@
         padding: 20px 0;
         text-align: center;
     }
-} */
+}
 
 /* =================================
    SMALL MOBILE
 ================================= */
 
-/* @media (max-width: 500px) {
+ @media (max-width: 500px) {
     .footer-top {
         grid-template-columns: 1fr;
         gap: 35px;
@@ -321,4 +321,4 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-} */
+}

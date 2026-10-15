@@ -209,7 +209,7 @@
    TABLET
 ================================= */
 
-/* @media (max-width: 900px) {
+ @media (max-width: 900px) {
     .main-header .container {
         gap: 20px;
     }
@@ -226,13 +226,12 @@
         padding: 10px 14px;
         font-size: 12px;
     }
-} */
+} 
 
 /* =================================
    MOBILE
 ================================= */
-
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
     .container {
         width: 92%;
     }
@@ -279,13 +278,13 @@
         padding: 10px 14px;
         font-size: 12px;
     }
-} */
+} 
 
 /* =================================
    SMALL MOBILE
 ================================= */
 
-/* @media (max-width: 500px) {
+ @media (max-width: 500px) {
     .contact-info ul li:nth-child(2) {
         display: none;
     }
@@ -303,4 +302,4 @@
         width: 14px;
         height: 14px;
     }
-} */
+} 

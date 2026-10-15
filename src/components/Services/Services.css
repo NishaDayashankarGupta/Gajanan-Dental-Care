@@ -186,7 +186,7 @@
    TABLET
 ================================= */
 
-/* @media (max-width: 1000px) {
+ @media (max-width: 1000px) {
     .services {
         padding: 80px 0;
     }
@@ -195,13 +195,13 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-} */
+}
 
 /* =================================
    MOBILE
 ================================= */
 
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
     .services {
         padding: 70px 0;
     }
@@ -226,13 +226,13 @@
     .service-card {
         padding: 28px 24px;
     }
-} */
+} 
 
 /* =================================
    SMALL MOBILE
 ================================= */
 
-/* @media (max-width: 480px) {
+ @media (max-width: 480px) {
     .services {
         padding: 55px 0;
     }
@@ -283,4 +283,4 @@
         width: 100%;
         max-width: 240px;
     }
-} */
+} 
